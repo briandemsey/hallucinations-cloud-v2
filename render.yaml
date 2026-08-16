@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hallucinations-cloud-v2
+    name: hallucinations-cloud-2027
     env: python
     region: oregon
     plan: free
