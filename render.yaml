@@ -3,7 +3,7 @@ services:
     name: hallucinations-cloud-v2
     env: python
     region: oregon
-    plan: starter
+    plan: free
     buildCommand: pip install -e .
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /healthz
